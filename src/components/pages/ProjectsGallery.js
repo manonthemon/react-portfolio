@@ -2,32 +2,6 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import projects from './projects.json';
 
-// function ProjectsGallery(props) {
-//   return (
-//     <div>
-//       <h1>Projects Gallery</h1>
-//       <h2>
-//  My latest projects
-//       </h2>
-
-//       {/*TODO {Cards with projects imported from JSON file will go here} */}
-
-//       <Link to="project" role="button" classNameName="btn btn-link">
-//         Show project
-//       </Link>
-//       <Link to="project-gallery" role="button" classNameName="btn btn-link">
-//         Hide project
-//       </Link>
-//       <Routes>
-//         <Route path="project" element={<Project />} />
-//       </Routes>
-//     </div>
-//   );
-// }
-
-// export default ProjectsGallery;
-
-
 
 function ProjectsGallery(props) {
   return (

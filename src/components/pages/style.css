@@ -37,3 +37,288 @@
   text-align: center;
   font-weight: 600;
 }
+
+
+
+
+
+
+
+
+
+:root {
+
+  --PrimaryColor: rgb(255, 220, 45);
+  --SecondaryColor: rgba(0, 0, 0, .9);
+  scroll-behavior: smooth;
+}
+
+body {
+background-color: white;
+margin: 0px;
+overflow-x: hidden;
+}
+
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: var(--SecondaryColor);
+  background-color: var(--PrimaryColor);
+  border: solid 2px black;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none !important;
+  }
+
+.button:hover {
+  background-color: rgb(38, 38, 38);
+  box-shadow: 0px 20px 29px rgba(30, 30, 3, 0.4);
+  color:var(--PrimaryColor);
+  transform: translateY(-7px);
+  outline: none !important;
+}
+
+.button:focus,.button:active {
+  outline: none !important;
+}
+
+/* Navigation bar */
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color:  rgba(255, 220, 45, 0.9) !important;
+  background-size: cover;
+  z-index: 100;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-link{
+  margin: 0px 15px;
+  font-size: 2.5vh;
+  font-weight: 700;
+}
+
+/* Navigation dropdown menu */
+
+.dropdown-menu {
+  background-color: rgba(255, 220, 45, 0.9) !important;
+  background-size: cover;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+   text-decoration: none;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+/* hero section  */
+
+.hero {
+  background-color: var(--PrimaryColor);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 130px;
+  margin-bottom: 40px;
+} 
+
+.heroCopy {
+  color: var(--SecondaryColor);
+  margin-bottom: 60px;
+}
+
+.heroCopy p {
+  font-size: 2.5vh;
+  font-weight: 500;
+}
+
+.heroPhoto img {
+  position: relative;
+  top: -55px;
+  height: 33vh;
+  border-radius: 220px 125px 229px 125px;
+  border: solid var(--SecondaryColor) 5px;
+  margin: 20px;
+  padding: 10px;
+}
+
+/*Work section*/   
+
+.work {
+margin: 80px 0px 80px 0px;
+}
+
+.work h2 {
+text-align: center;
+padding-bottom: 50px;
+}
+
+.card {
+margin: 80px 0px 80px 0px;
+text-align: center;
+margin: 0 auto;
+height: 45vh;
+border: 0px;
+}
+.work img {
+  height: 25vh;
+
+}
+.work img:hover {
+opacity: 0.5;
+}
+
+/*Skills section*/
+
+.skills {
+background-color: var(--SecondaryColor);
+padding: 60px 0px 80px 0px;
+}
+
+.skill-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px
+}
+
+.skills h2 {
+color: white;
+margin: 30px;
+padding: 30px 0px 80px 0px;
+text-align: center;
+}
+
+.skills img {
+width: 15vh;
+justify-content: center;
+align-items: center;
+}
+
+
+.skills h3 {
+color: white;
+padding: 30px;
+text-align: center;
+}
+
+.skill-container p {
+color: white;
+margin-bottom: 30px;
+padding: 15px 100px 15px 100px;
+font-size: 2.2vh;
+text-align: center;
+}
+
+/*About me section*/
+
+.about-me {
+padding: 60px 0px 80px 0px;
+}
+
+.about-me-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px 100px 40px 100px;
+}
+
+.about-me h2 {
+color: var(--SecondaryColor);
+padding-top: 60px;
+text-align: center;
+}
+
+.about-me-container img {
+width: 35vh;
+justify-content: center;
+align-items: center;
+}
+
+.about-me-container p {
+color: var(--SecondaryColor);
+font-size: 2.2vh;
+}
+
+
+/*footer*/
+
+.footer {
+background-color: var(--SecondaryColor);
+margin-bottom: -90px;
+}
+
+.footer-copy p {
+color: white;
+padding: 50px;
+}
+
+.footer-links {
+float: left;
+margin: 0px;
+overflow: hidden;
+}
+
+.footer li {
+float: left;
+padding: 6px;
+list-style-type: none !important;
+}
+
+.footer li a {
+display: block;
+margin: 35px;
+}
+
+
+.footer-button {
+width: 40px;
+font-size: 1.5vh;
+text-align: center;
+letter-spacing: 2px;
+font-weight: 700;
+background-color: var(--PrimaryColor);
+border-radius: 45px;
+cursor: pointer;
+outline: none !important;
+}
+
+.footer-button:hover {
+background-color: rgb(38, 38, 38);
+box-shadow: 0px 20px 29px rgba(77, 77, 77, 0.4);
+outline: none !important;
+text-decoration: none;
+}
+
+.button:focus,.button:active {
+outline: none !important;
+}
+
+@media screen and (max-width: 500px) {
+
+.about-me-container img {
+  display: none;
+}
+}
