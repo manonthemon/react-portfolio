@@ -12,10 +12,10 @@ import projects from './projects.json';
 
 //       {/*TODO {Cards with projects imported from JSON file will go here} */}
 
-//       <Link to="project" role="button" className="btn btn-link">
+//       <Link to="project" role="button" classNameName="btn btn-link">
 //         Show project
 //       </Link>
-//       <Link to="project-gallery" role="button" className="btn btn-link">
+//       <Link to="project-gallery" role="button" classNameName="btn btn-link">
 //         Hide project
 //       </Link>
 //       <Routes>
@@ -32,10 +32,10 @@ import projects from './projects.json';
 function ProjectsGallery(props) {
   return (
 
-    <div class="container">
-      <h2 id="projects-header">My projects</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
+    <div className="container">
+      <h2 className="title">My projects</h2>
+    <div className="row justify-content-center">
+      <div className="col-md-4">
         <ProjectCard
           name={projects[0].name}
           image={projects[0].image}
@@ -43,7 +43,7 @@ function ProjectsGallery(props) {
           github={projects[0].github}
         />
       </div>
-      <div class="col-md-4">
+      <div className="col-md-4">
         <ProjectCard
           name={projects[1].name}
           image={projects[1].image}
@@ -51,7 +51,7 @@ function ProjectsGallery(props) {
           github={projects[1].github}
         />
       </div>
-      <div class="col-md-4">
+      <div className="col-md-4">
         <ProjectCard
           name={projects[2].name}
           image={projects[2].image}
@@ -60,8 +60,8 @@ function ProjectsGallery(props) {
         />
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
+    <div className="row justify-content-center">
+      <div className="col-md-4">
         <ProjectCard
           name={projects[3].name}
           image={projects[3].image}
@@ -69,7 +69,7 @@ function ProjectsGallery(props) {
           github={projects[3].github}
         />
       </div>
-      <div class="col-md-4">
+      <div className="col-md-4">
         <ProjectCard
           name={projects[4].name}
           image={projects[4].image}
@@ -77,7 +77,7 @@ function ProjectsGallery(props) {
           github={projects[4].github}
         />
       </div>
-      <div class="col-md-4">
+      <div className="col-md-4">
         <ProjectCard
           name={projects[5].name}
           image={projects[5].image}
