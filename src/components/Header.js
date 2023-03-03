@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <div>
-      <h1>Maciej Klimowicz Portfolio</h1>
+    <div className="header">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink

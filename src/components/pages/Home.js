@@ -1,24 +1,9 @@
 import React from "react";
-
-// function Home() {
-//   return (
-//     <div>
-//       <h2 classNameName="title">About Me</h2>
-//       <p>
-//         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-//         varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-//         Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-//         imperdiet ac.
-//       </p>
-//     </div>
-//   );
-// }
-
-// export default Home;
+import "./style.css";
 
 function Home() {
   return (
-    <section className="jumbotro jumbotron-fluid hero">
+    <section className="jumbotron jumbotron-fluid hero">
     <div className="container text-center text-lg-left">
         <div className="row">
             <div className="col-lg-8 heroCopy">
@@ -26,10 +11,21 @@ function Home() {
                 <p className="lead">Looking for a passionate front-end developer? Need an experienced SEO professional
                     to boost your business? You're after some quality content for your website? Look no further!
                 </p>
+                <span class="text-center d-inline-block">
+                        <a class="button btn-primary btn-lg w-100 heroButton" href="https://github.com/manonthemon" role="button">GitHub</a>
+                    </span>
+                    <span class="text-center d-inline-block">
+                        <a class="button btn-primary btn-lg w-100 heroButton" href="https://www.linkedin.com/in/maciek-klimowicz/" role="button">LinkdIn</a>
+                    </span>
+                    <span class="text-center d-inline-block">
+                        <a class="button btn-primary btn-lg w-100 heroButton" href="mailto: abc@example.com" role="button">email me</a>
+                    </span>
+                    <span class="text-center d-inline-block">
+                        <a class="button btn-primary btn-lg w-100 heroButton" href="https://drive.google.com/file/d/1_Wn25qeTscIHbRt_DzlKggkDEQOf5MEr/view?usp=share_link" role="button">resume</a>
+                    </span>
             </div>
             <div className="col-lg-4 heroPhoto">
             <img src="https://media.licdn.com/dms/image/D4D03AQGmFxwUV1qYwA/profile-displayphoto-shrink_800_800/0/1664317835109?e=2147483647&v=beta&t=66mc2UBSDdgjRXmCDz110qoc53yp1Of4Wq-BPi2bSDU"alt="Portrait of the page author" className="img-fluid" />
-
             </div>
         </div>
     </div>
