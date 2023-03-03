@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Project 1",
+    "image":
+      "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
+    "deployed": "Fry Cook",
+    "github": "A Pineapple Under the Sea"
+  },
+  {
+      "id": 1,
+      "name": "Project 2",
+      "image":
+        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
+      "deployed": "Fry Cook",
+      "github": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 1,
+      "name": "Project 3",
+      "image":
+        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
+      "deployed": "Fry Cook",
+      "github": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 1,
+      "name": "Project 4",
+      "image":
+        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
+      "deployed": "Fry Cook",
+      "github": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 1,
+      "name": "Project 5",
+      "image":
+        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
+      "deployed": "Fry Cook",
+      "github": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 1,
+      "name": "Project 6",
+      "image":
+        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
+      "deployed": "Fry Cook",
+      "github": "A Pineapple Under the Sea"
+    }
+]
