@@ -1,35 +1,34 @@
 
 :root {
 
-  --PrimaryColor: rgb(255, 220, 45);
+  --PrimaryColor: rgb(135, 182, 189);
   --SecondaryColor: rgba(0, 0, 0, .9);
-  scroll-behavior: smooth;
+  background-color: var(--PrimaryColor);
 }
 
 .header {
- background-color: black
+ background-color: var(--PrimaryColor);
+ border-bottom: 0px;
+ margin: 0px;
+ margin-bottom: -1px !important;
+ padding-left: 30px;
+ padding: 10px
 }
+.header li {
+  padding: 10px;
+}
+
 
 .card {
   border-radius: 2px;
-  height: 325px;
-  margin: 1rem;
-  position: relative;
-  width: 325px;
+  margin: 2rem;
   text-align: center;
-  border: solid 5px black;
-}
-
-.card > .img-container {
-  height: 100%;
-  overflow: hidden;
-  text-align: center;
-  padding: 10px;
 
 }
+
 .card > .img-container > img {
-  width: 90%;
-  border: solid, 2px, black;
+  height: 150px;
+  padding: 10px
 }
 
 .card > .content {
@@ -40,22 +39,31 @@
 
 .card > .content > ul {
   list-style-type: none;
+  text-decoration: none;
 }
 
 .card > .content > ul > li {
   margin-top: 18px;
+  text-decoration: none !important
 }
 
 .title {
   text-align: center;
-  font-weight: 600;
-  margin-top: 30px;
+  font-weight: 400;
+  padding-top: 30px;
+  text-transform: uppercase
 }
 
-body {
-background-color: white;
-margin: 0px;
-overflow-x: hidden;
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: underline !important;;
+}
+a:active {
+  text-decoration: underline !important;;
 }
 
 h1, h2, h3 , h4, h5, h6 {
@@ -72,7 +80,7 @@ p {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--SecondaryColor);
   background-color: var(--PrimaryColor);
   border: solid 2px black;
@@ -80,16 +88,14 @@ p {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  padding: 5px;
+  padding: 8px;
   margin: 5px;
   }
 
 .button:hover {
   background-color: rgb(38, 38, 38);
   box-shadow: 0px 20px 29px rgba(30, 30, 3, 0.4);
-  color:var(--PrimaryColor);
   transform: translateY(-7px);
-  outline: none !important;
 }
 
 /* hero section  */
@@ -98,12 +104,10 @@ p {
   background-color: var(--PrimaryColor);
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 120px);
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 130px;
-  margin-bottom: 40px;
 } 
 
 .heroCopy {
@@ -126,42 +130,16 @@ p {
   padding: 10px;
 }
 
+.project-container {
+  background-color: var(--PrimaryColor);
+  height: 100vh;
+} 
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin-top: 30px;
-
-
+  background-color: var(--PrimaryColor);
 }
 
-/*About me section*/
-
-/* .about-me {
-padding: 60px 0px 80px 0px;
-}
-
-.about-me-container {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 50px 100px 40px 100px;
-}
-
-.about-me h2 {
-color: var(--SecondaryColor);
-padding-top: 60px;
-text-align: center;
-}
-
-.about-me-container img {
-width: 35vh;
-justify-content: center;
-align-items: center;
-}
-
-.about-me-container p {
-color: var(--SecondaryColor);
-font-size: 2.2vh;
-} */

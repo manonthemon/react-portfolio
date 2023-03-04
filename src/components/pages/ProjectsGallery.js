@@ -6,7 +6,7 @@ import projects from './Projects.json';
 function ProjectsGallery(props) {
   return (
 
-    <div className="container">
+    <div className="project-container">
       <h2 className="title">My projects</h2>
     <div className="row justify-content-center">
       <div className="col-md-4">

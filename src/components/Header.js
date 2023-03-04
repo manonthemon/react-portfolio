@@ -4,14 +4,10 @@ import { NavLink } from 'react-router-dom';
 function Header() {
   return (
     <div className="header">
-    <ul className="nav nav-tabs">
+    <ul className="nav">
       <li className="nav-item">
         <NavLink
           to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
         >
           Home
         </NavLink>
@@ -20,10 +16,6 @@ function Header() {
       <li className="nav-item">
         <NavLink
           to="projects-gallery"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
         >
           Projects Gallery
         </NavLink>
@@ -31,9 +23,6 @@ function Header() {
       <li className="nav-item">
         <NavLink
           to="contact"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
         >
           Contact Me
         </NavLink>
