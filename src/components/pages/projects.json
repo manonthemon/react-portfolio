@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "name": "Project 1",
+    "name": "Inspirite",
     "image":
-      "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
-    "deployed": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+      "https://serving.photos.photobox.com/034103720a903d60e186f0809603d3b1f025ceab598c8ae1ab7fdb42ecec4bfa4e642f8b.jpg",
+    "deployed": "https://manonthemon.github.io/Inspirite-Creative-Writing-App",
+    "github": "https://github.com/manonthemon/Inspirite-Creative-Writing-App"
   },
   {
-      "id": 1,
-      "name": "Project 2",
+      "id": 2,
+      "name": "Bootstrap portfolio",
       "image":
-        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
-      "deployed": "Fry Cook",
-      "github": "A Pineapple Under the Sea"
+        "https://serving.photos.photobox.com/3338308415b748a5ab48447078cb332536e12bd5615262649287e3dc33b92b5e82cf0535.jpg",
+      "deployed": "https://manonthemon.github.io/Bootstrap-Portfolio/",
+      "github": "https://github.com/manonthemon/Bootstrap-Portfolio"
     },
     {
-      "id": 1,
-      "name": "Project 3",
+      "id": 3,
+      "name": "Password generator",
       "image":
-        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
-      "deployed": "Fry Cook",
-      "github": "A Pineapple Under the Sea"
+        "https://serving.photos.photobox.com/75381100d8f0fbe3717ddf27da35d2da1403d482b1752a3dede456173ac308df30226865.jpg",
+      "deployed": "https://manonthemon.github.io/Password-Generator/",
+      "github": "https://github.com/manonthemon/password-generator"
     },
     {
-      "id": 1,
-      "name": "Project 4",
+      "id": 4,
+      "name": "Weather dashboard",
       "image":
-        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
-      "deployed": "Fry Cook",
-      "github": "A Pineapple Under the Sea"
+        "https://serving.photos.photobox.com/683266340b4c347996c553e78854fe7c9b3f8e77ddad9d42e0f99b07145b86621cf12a50.jpg",
+      "deployed": "https://manonthemon.github.io/weather-dahboard/",
+      "github": "https://github.com/manonthemon/weather-dahboard"
     },
     {
-      "id": 1,
-      "name": "Project 5",
+      "id": 5,
+      "name": "Coding quiz",
       "image":
-        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
-      "deployed": "Fry Cook",
-      "github": "A Pineapple Under the Sea"
+        "https://serving.photos.photobox.com/162516666d58157eff3b0d232f06f3f3293520153cb91a90e0a1c16c9dcb4210a8958540.jpg",
+      "deployed": "https://manonthemon.github.io/code-quiz/",
+      "github": "https://github.com/manonthemon/code-quiz"
     },
     {
-      "id": 1,
-      "name": "Project 6",
+      "id": 6,
+      "name": "Workday planner",
       "image":
-        "https://thumbs.dreamstime.com/z/example-red-stamp-text-white-43363006.jpg",
-      "deployed": "Fry Cook",
-      "github": "A Pineapple Under the Sea"
+        "https://serving.photos.photobox.com/081136028c484bc76bb1f4b7873c6b0ff94764492f0a490a764fb50e0a1a428931f93170.jpg",
+      "deployed": "https://manonthemon.github.io/daily-planner/",
+      "github": "https://github.com/manonthemon/daily-planner"
     }
 ]

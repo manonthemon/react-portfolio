@@ -1,17 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const submit = (event) => {
+    event.preventDefault();
+    console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+  };
+
   return (
-    <div>
-      <h2 className="title">Contact Me</h2>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <form onSubmit={submit}>
+      <h2 className="title">Contact me</h2>
+      <label>
+        Name:
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+      </label>
+      <label>
+        Email:
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      </label>
+      <label>
+        Message:
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)} />
+      </label>
+      <button type="submit">Send</button>
+    </form>
   );
 }
 

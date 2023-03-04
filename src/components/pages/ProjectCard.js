@@ -12,13 +12,16 @@ function ProjectCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Project title:</strong> {props.name}
+            <strong>{props.name}</strong>
           </li>
           <li>
-            <strong>Deployed project:</strong> {props.url}
+
+<a href={props.deployed}>Deployed project</a>
+
           </li>
           <li>
-            <strong>GitHub Repository:</strong> {props.github}
+          <a href={props.github}>GitHub</a>
+   
           </li>
         </ul>
       </div>
