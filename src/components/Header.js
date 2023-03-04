@@ -14,7 +14,7 @@ function Header() {
       </li>
   
       <li className="nav-item">
-        <NavLink
+        <NavLink 
           to="projects-gallery"
         >
           Projects Gallery

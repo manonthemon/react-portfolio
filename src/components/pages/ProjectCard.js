@@ -5,6 +5,7 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
+    
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
@@ -30,3 +31,4 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard;
+
