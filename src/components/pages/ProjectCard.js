@@ -3,6 +3,8 @@
 import React from "react";
 import "./style.css";
 
+//a project card component, to be displayed in project's gallery
+
 function ProjectCard(props) {
   return (
     

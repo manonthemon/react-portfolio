@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+//Page features contact form and contact information
+
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

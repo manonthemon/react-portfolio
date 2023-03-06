@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+//The layout of the front page with jumbotron, hero image and buttons with links
+
 function Home() {
   return (
     <section className="jumbotron jumbotron-fluid hero">

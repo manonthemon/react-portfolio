@@ -2,6 +2,9 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import projects from './Projects.json';
 
+
+//Use .map to display cards with projects info sourced from json file.
+
 function ProjectsGallery() {
   return (
 <div className="project-container">
