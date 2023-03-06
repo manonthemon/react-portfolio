@@ -20,7 +20,7 @@ function Contact() {
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
         <h3>Message</h3>
         <textarea className="message-field" type="text-field" value={message} onChange={(e) => setMessage(e.target.value)} />
-      <button className = "button btn-primary btn-lg" Button type="submit">Send</button>
+      <button className = "button btn-primary btn-lg" button type="submit">Send</button>
     </form>
     </div>
   );
