@@ -1,4 +1,3 @@
-
 :root {
 
   --PrimaryColor: rgb(159, 214, 222);
@@ -16,12 +15,12 @@
 }
 
 .header {
- background-color: var(--PrimaryColor);
- border-bottom: 0px;
- margin: 0px;
- margin-bottom: -1px !important;
- padding-left: 30px;
- padding: 10px
+  background-color: var(--PrimaryColor);
+  border-bottom: 0px;
+  margin: 0px;
+  margin-bottom: -1px !important;
+  padding-left: 30px;
+  padding: 10px
 }
 
 .header li {
@@ -38,25 +37,25 @@
   text-align: center;
 }
 
-.card > .img-container > img {
+.card>.img-container>img {
   height: 20vh;
   padding: 10px;
   margin-top: 10px;
   border: solid black 1.5px;
 }
 
-.card > .content {
+.card>.content {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 20px;
 }
 
-.card > .content > ul {
+.card>.content>ul {
   list-style-type: none;
   text-decoration: none;
 }
 
-.card > .content > ul > li {
+.card>.content>ul>li {
   margin-top: 18px;
 }
 
@@ -65,7 +64,7 @@
   font-weight: 400;
   padding-top: 30px;
   text-transform: uppercase;
-  background-color: var(--PrimaryColor); 
+  background-color: var(--PrimaryColor);
   margin-bottom: -5px;
 }
 
@@ -75,13 +74,19 @@ a {
 }
 
 a:hover {
-  text-decoration: underline !important;;
+  text-decoration: underline !important;
+  ;
   cursor: pointer;
 }
 
 
-h1, h2 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;  font-family: 'Raleway', sans-serif;
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 p {
@@ -104,7 +109,7 @@ p {
   cursor: pointer;
   padding: 8px;
   margin: 5px;
-  }
+}
 
 .button:hover {
   background-color: rgb(86, 124, 127);
@@ -122,7 +127,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-} 
+}
 
 .heroCopy {
   color: var(--SecondaryColor);
@@ -147,14 +152,14 @@ p {
 .project-container {
   background-color: var(--PrimaryColor);
   height: 100vh;
-} 
+}
 
 .cards-container {
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 .form-container {
@@ -195,27 +200,28 @@ form {
     padding: 0 10px;
   }
 
-    .heroPhoto {
-      position: absolute;
-      top: 100px;
-      height: 33vh;
-      margin: 20px;
-      padding: 10px;
-    }
+  .heroPhoto {
+    position: absolute;
+    top: 100px;
+    height: 33vh;
+    margin: 20px;
+    padding: 10px;
+  }
 
-    .heroCopy {
-      margin-bottom: -100px;
-      padding-bottom: 10px ;
-    }
-  
-    .header li {
-      text-align: center;
-      padding-left: 25px;
-      font-size: large !important;
-    }
+  .heroCopy {
+    margin-bottom: -100px;
+    padding-bottom: 10px;
+  }
+
+  .header li {
+    text-align: center;
+    padding-left: 25px;
+    font-size: large !important;
+  }
 }
 
-textarea, input {
+textarea,
+input {
   box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.3) !important;
 }
 
